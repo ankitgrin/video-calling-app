@@ -155,7 +155,7 @@ const Room = () => {
           );
         })}
       </div>
-      <CopySection />
+      <CopySection roomId={roomId} />
       <Bottom
         muted={playerHighlighted?.muted}
         playing={playerHighlighted?.playing}
