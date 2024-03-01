@@ -13,7 +13,7 @@ const CopySection = (props) => {
       <div className={styles.copyDescription}>
         <span>{roomId}</span>
         <CopyToClipboard text={roomId}>
-          <Copy className="ml-3 cursor-pointer" />
+          <Copy size={32} className="ml-3 cursor-pointer" />
         </CopyToClipboard>
       </div>
     </div>
