@@ -11,7 +11,9 @@ export const SocketProvider = ({ children }) => {
   const [socket, setSocket] = useState(null);
 
   useEffect(() => {
-    const connection = io("/", { transports: ["websocket"], upgrade: false });
+    const connection = io("/", {
+      transports: ["websocket"],
+    });
     setSocket(connection);
   }, []);
 
