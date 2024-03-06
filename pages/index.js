@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <div className={styles.homeContainer}>
-      <h1>Google Meet Clone</h1>
+      <h1>Video Calling App</h1>
       <div className={styles.enterRoom}>
         <input
           type="text"
